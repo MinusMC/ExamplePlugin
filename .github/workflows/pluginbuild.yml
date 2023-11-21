@@ -27,5 +27,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@v2
         with:
-          name: ScriptsPlugin
-          path: build/libs/scriptsplugin-dev.jar
+          name: ExamplePlugin
+          path: build/libs/exampleplugin-dev.jar

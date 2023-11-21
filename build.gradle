@@ -42,7 +42,7 @@ configurations {
 
 dependencies {
     include "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
-    compile fileTree(include: ["*.jar"], dir: "libs")
+    compile "com.github.MinusMCNetwork:MinusBounce:0.1.1"
 }
 
 shadowJar {
