@@ -1,6 +1,6 @@
 package me.toidicakhia.ExamplePlugin
 
-import net.ccbluex.liquidbounce.plugin.Plugin
+import net.minusmc.minusbounce.plugin.Plugin
 
 class ExamplePlugin: Plugin("ExamplePlugin", "dev") {
 	override fun init() {
